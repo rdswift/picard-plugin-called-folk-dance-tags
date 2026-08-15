@@ -1,19 +1,19 @@
 uuid = "7b051a39-7179-45bc-875d-5d1831f43b45"
 name = "Called Folk Dance Tags"
-description = "This plugin adds tags for traditional called folk dances from the IETF Internet-Draft (I-D) [draft-swhited-contra-tags-04](https://datatracker.ietf.org/doc/draft-swhited-contra-tags/)."
+description = "This plugin adds tags for traditional called folk dances from the IETF Internet-Draft (I-D) draft-swhited-contra-tags-04 by Sam Whited."
 api = ["3.0"]
 authors = ["Bob Swift", "Sam Whited"]
 license = "GPL-2.0-or-later"
 license_url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-categories = ["scripting"]
-# homepage = "https://github.com/username/plugin-name"
-report_bugs_to = "mailto:bswift@rsds.ca"
+categories = ["metadata", "scripting"]
+homepage = "https://github.com/rdswift/picard-plugin-called-folk-dance-tags"
+report_bugs_to = "https://github.com/rdswift/picard-plugin-called-folk-dance-tags/issues"
 long_description = """
-This plugin adds tags for traditional called folk dances from the IETF Internet-Draft (I-D) [draft-swhited-contra-tags-04](https://datatracker.ietf.org/doc/draft-swhited-contra-tags/).
+This plugin adds tags for traditional called folk dances from the IETF Internet-Draft (I-D) [draft-swhited-contra-tags-04](https://datatracker.ietf.org/doc/draft-swhited-contra-tags/) by Sam Whited.
 
-The plugin creates the tags, with descriptions, for easy lookup in the script editor only. It does not populate any of the tags. Tags include:
+The plugin registers the tags, with descriptions, for easy lookup in the script editor. It does not populate any of the tags. Tags include:
 
-- `dance_caller`: The name of the dance caller(s) heard in the track.
+- `dance_caller`: The name of the dance callers heard in the track.
 - `dance_choreographer`: The names of the authors of the dances being called.
 - `dance_choreography`: The moves of the dance as text for called folk dances.
 - `dance_crooked`: Whether a traditional called folk dance tune is "crooked" (ie. not in perfect dance form).
@@ -25,7 +25,7 @@ The plugin creates the tags, with descriptions, for easy lookup in the script ed
 - `dance_roles`: The role terms used for calls in a called folk dance, eg. "Larks/Robins" or "Leads/Follows" or "Positional".
 - `dance_start`: The start time (in milliseconds) of the first time through the dance in a called folk dance.
 - `dance_times`: The number of complete times through the dance excluding any intro, outro, or potatoes for a called folk dance. The exact definition will depend on the type of dance.
-- `dance_title`: The name of the dance(es) being called for called folk dances.'
+- `dance_title`: The name of the dances being called for called folk dances.'
 """
 source_locale = "en"
 

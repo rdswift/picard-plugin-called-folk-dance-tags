@@ -1,8 +1,8 @@
 # Called Folk Dance Tags
 
-This plugin adds tags for traditional called folk dances from the IETF Internet-Draft (I-D) [draft-swhited-contra-tags-04](https://datatracker.ietf.org/doc/draft-swhited-contra-tags/). It is based on a pull request by Sam Whited to include the tags in the Picard base code.
+This plugin adds tags for traditional called folk dances from the IETF Internet-Draft (I-D) [draft-swhited-contra-tags-04](https://datatracker.ietf.org/doc/draft-swhited-contra-tags/) by Sam Whited.
 
-The plugin creates the tags, with descriptions, for easy lookup in the script editor only. It does not populate any of the tags. Tags include:
+The plugin creates the tags, with descriptions, for easy lookup in the script editor. It does not populate any of the tags. Tags include:
 
 - `dance_caller`: The name of the dance caller(s) heard in the track.
 - `dance_choreographer`: The names of the authors of the dances being called.
